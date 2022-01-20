@@ -1,0 +1,20 @@
+.user-component,
+.user-component__column:first-child {
+  display: flex;
+  align-items: center;
+}
+.user-component__img {
+  width: 70px;
+  height: 70px;
+  border-radius: 27px;
+  margin-right: 10px;
+}
+.user-component__title {
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.user-component__subtitle {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 15px;
+}

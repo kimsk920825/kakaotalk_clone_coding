@@ -1,0 +1,14 @@
+#friends-names-display {
+  text-align: center;
+  display: block;
+  background-color: #fafafa;
+  padding: 15px;
+  margin-top: 10px;
+}
+
+#friends-names-display i {
+  color: rgba(0, 0, 0, 0.3);
+}
+#friends-names-display i:last-child {
+  font-weight: 600;
+}
