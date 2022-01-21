@@ -1,8 +1,17 @@
-.user-component,
+.user-component {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .user-component__column:first-child {
   display: flex;
   align-items: center;
 }
+.user-component__column:nth-child(2) {
+  margin-bottom: 7px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
 .user-component__img {
   width: 70px;
   height: 70px;
@@ -14,7 +23,18 @@
   font-size: 22px;
   margin-bottom: 10px;
 }
+.user-component__title-not-bold {
+  font-weight: inherit;
+}
 .user-component__subtitle {
   color: rgba(0, 0, 0, 0.5);
   font-size: 15px;
+}
+.user-component__img--xl {
+  width: 80px;
+  height: 80px;
+}
+.user-component__img--sm {
+  width: 60px;
+  height: 60px;
 }

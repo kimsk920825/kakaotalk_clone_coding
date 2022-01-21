@@ -4,11 +4,28 @@
   background-color: #fafafa;
   padding: 15px;
   margin-top: 10px;
+  margin-bottom: 10px;
 }
-
 #friends-names-display i {
   color: rgba(0, 0, 0, 0.3);
 }
 #friends-names-display i:last-child {
   font-weight: 600;
+}
+.friends-screen {
+  padding: 0px var(--horizontal-space);
+}
+.friends-screen i {
+  font-weight: 600;
+}
+.friends-screen-channel {
+  margin-top: 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding-top: 17px;
+}
+.friends-screen-channel__header {
+  margin-bottom: 29px;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.3);
 }
