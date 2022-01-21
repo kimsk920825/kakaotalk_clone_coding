@@ -12,9 +12,6 @@
 #friends-names-display i:last-child {
   font-weight: 600;
 }
-.friends-screen {
-  padding: 0px var(--horizontal-space);
-}
 .friends-screen i {
   font-weight: 600;
 }

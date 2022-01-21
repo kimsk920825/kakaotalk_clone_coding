@@ -5,6 +5,9 @@
   align-items: center;
 }
 
+.screen-header-chat {
+  margin-bottom: 38px;
+}
 .screen-header__title {
   font-size: 25px;
   font-weight: 600px;

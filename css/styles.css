@@ -5,6 +5,7 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
+@import "components/bage.css";
 /*Screen*/
 @import "screens/login.css";
 @import "screens/friends.css";
@@ -14,6 +15,6 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   margin-right: 10px;
 }
-i[class~="chevron"] {
-  color: rgba(0, 0, 0, 0.9);
+.main-screen {
+  padding: 0px var(--horizontal-space);
 }
