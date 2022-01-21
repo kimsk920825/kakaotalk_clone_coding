@@ -1,6 +1,8 @@
 .find-icons {
   display: flex;
   justify-content: space-between;
+  border-bottom: var(--main-border);
+  padding-bottom: 30px;
 }
 .find-icons__icon {
   display: flex;
