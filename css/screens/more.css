@@ -1,0 +1,9 @@
+.user-component__info {
+  display: flex;
+  align-items: center;
+}
+.user-component__info i {
+  color: tomato;
+  font-size: 15px;
+  margin-left: 10px;
+}
