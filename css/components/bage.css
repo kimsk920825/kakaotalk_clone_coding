@@ -13,3 +13,18 @@
   margin-left: 11px;
   margin-top: 5px;
 }
+.find-bage-dot {
+  background-color: tomato;
+  border-radius: 15px;
+  width: 5px;
+  height: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: tomato;
+  font-size: 15px;
+  position: absolute;
+  left: 7px;
+  bottom: 20px;
+  font-size: 0;
+}
