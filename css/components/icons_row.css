@@ -13,3 +13,9 @@
   margin-top: 20px;
   font-size: 15px;
 }
+.icons-row-more__location {
+  padding: 20px 0px;
+  margin-bottom: 30px;
+  border-bottom: var(--main-border);
+  height: 100px;
+}
