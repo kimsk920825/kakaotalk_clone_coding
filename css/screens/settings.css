@@ -1,0 +1,13 @@
+.settings-first-box__li {
+  padding: 25px 0px;
+}
+.settings-first-box__li:first-child {
+  border-bottom: var(--main-border);
+}
+.settings-first-box__li:nth-child(2) {
+  border-bottom: var(--main-border);
+}
+.settings-first-box__li:nth-child(3) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  padding-bottom: 50px;
+}
