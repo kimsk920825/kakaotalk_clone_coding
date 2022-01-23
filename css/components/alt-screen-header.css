@@ -5,9 +5,16 @@
   margin-bottom: 30px;
   justify-content: space-between;
 }
-/* .alt-screen-header__link {
-  margin-right: auto;
+.alt-screen-header__column:last-child i:nth-child(2) {
+  margin-left: 20px;
 }
-.alt-screen-header__item:last-child {
-  margin-left: auto;
-} */
+.alt-screen-header__column {
+  width: 33%;
+}
+.alt-screen-header__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+.alt-screen-header__column:nth-child(2) {
+  text-align: center;
+}

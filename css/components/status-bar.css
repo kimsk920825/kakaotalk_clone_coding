@@ -5,6 +5,7 @@
   font-size: 15px;
   position: fixed;
   width: 100%;
+  box-sizing: border-box;
 }
 .status-bar__column {
   width: 33%;
