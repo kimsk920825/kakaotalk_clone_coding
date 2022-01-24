@@ -77,3 +77,52 @@
 .message-row--own .message__info {
   flex-direction: row-reverse;
 }
+.reply {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 25px;
+  align-items: center;
+  box-sizing: border-box;
+}
+.reply .reply__column:first-child {
+  width: 10%;
+}
+.reply .reply__column:last-child {
+  width: 90%;
+  position: relative;
+}
+.reply input {
+  height: 23px;
+  width: 100%;
+  border: var(--main-border);
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.reply .reply__column:first-child > i {
+  opacity: 0.5;
+}
+.reply .reply__column:last-child > i {
+  right: 35px;
+  top: 7px;
+  position: absolute;
+  opacity: 0.5;
+  font-size: 23px;
+}
+.reply .reply__column:last-child button {
+  position: absolute;
+  top: 4px;
+  right: -9px;
+  background-color: var(--yellow);
+  border: none;
+  border-radius: 50%;
+  font-size: 23px;
+}
+.reply .reply__column:last-child button:focus,
+.reply .reply__column:last-child button:active {
+  outline: none;
+}
